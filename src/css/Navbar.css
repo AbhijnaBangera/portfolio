@@ -1,0 +1,141 @@
+
+  body {
+    background-color: black;
+  }
+  
+  header {
+    width: 100%;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: darkslategray;
+    padding: 15px;
+  }
+  .sidebar li {
+    color: maroon;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    margin-right: 0; 
+    box-sizing: border-box; 
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block; 
+    box-sizing: border-box; 
+  }
+  
+  
+  .navbar {
+    background-color: darkslategray;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .desktop-menu {
+    margin-right: 15px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  /* .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10;
+  } */
+  
+
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .menu {
+    display: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .nav-links a:hover,
+  .mobile-menu button:hover {
+    background-color:  black;
+    padding: 15px;
+    color: #ffffff;
+  }
+  
+  .sidebar li:hover {
+    background-color:  black;
+    color: #ffffff;
+  }
+  
+  .sidebar button:hover {
+    background-color: #0000ff;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 0;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  .icon {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .icon {
+      display: block;
+    }
+  }
+ 
+  .sidebar:hover {
+    backdrop-filter: none;
+  }
+  
+
+ 

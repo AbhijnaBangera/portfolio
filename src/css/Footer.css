@@ -1,0 +1,21 @@
+
+.footer{
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    padding: 1px 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: brown;
+
+}
+.footer p{
+    color: whitesmoke;
+    margin: 7px 0 3px 0;
+}
