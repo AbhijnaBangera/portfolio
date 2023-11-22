@@ -1,8 +1,21 @@
-h1{
-    color: beige;
+
+.Moreinfo h2 {
+    color: greenyellow; 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
     text-align: center;
 }
-h3{
-    color: black;
-    text-align: center;
+
+
+.info h3 {
+    color:white; 
+    font-size: 18px; 
+    margin-bottom: 8px; 
+}
+
+
+.Moreinfo h1 a {
+    text-decoration: none; 
+    color: inherit;
 }

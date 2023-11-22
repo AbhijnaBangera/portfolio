@@ -83,12 +83,12 @@ function Navbar() {
               )}
 
               
-{show === "/footer" ? (
+{show === "/education" ? (
                 ""
               ) : (
                 <li>
                   <Link to="/education" onClick={() => hamburger(false)}>
-                    Footer
+                    Education
                   </Link>
                 </li>
               )}

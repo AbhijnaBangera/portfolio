@@ -11,10 +11,9 @@ function About() {
       </div>
       <div class="info">
         
-        <h3>Abhijna</h3>
-        <h3>4CB21CS001</h3>
-        <h3>Canara Engineering College</h3>
-        <div className="photo">
+        <h3><p>My name is Abhijna and I am studing in canara Engineering College in Benjanpadav Mangalore .I am studing in 3rd year 6th sem.My goal is to get place in a IT company </p></h3>
+       
+        <div className="photos">
           <img src={img} alt="img" />
 
         </div>

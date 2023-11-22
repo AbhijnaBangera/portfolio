@@ -1,5 +1,5 @@
 import About from "./About";
-import Services from "./Services";
+import Skill from "./Skill";
 import Contact from "./Contact";
 import Moreinfo from "./Moreinfo";
 import Education from "./Education";
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <About/>
-      <Services />
+      <Skill />
       <Contact />
       <Moreinfo/>
       <Education/>

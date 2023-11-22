@@ -1,35 +1,82 @@
-
-
-h1{
-    color: beige;
-    text-align:center;
-}
-h3{
-    color: black;
-    text-align:center;
-}
-
-.About {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .info {
+/* .info {
     text-align: center;
   }
   
-  .photo {
+  .photos {
     position: relative;
     overflow: hidden; 
   }
   
-  .photo img {
+  .photos img {
     max-width: 100%; 
     height: 50vh;
     display: block;
     margin: 0 auto;
+    
+    
+  }
+
+
+  .About {
+    text-align: center;
+    background-color:grey;
+    padding: 10px;
+    margin-bottom:5px;
+  }*/
+  
+  .About h1 {
+
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color:greenyellow;                                                     
+  }      
+
+
+
+  .About {
+    text-align: center;
+    
   }
   
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding:10vh;
+  }
   
+  .photos {
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .photos img {
+    max-width: 100%; 
+    height: 50vh;
+    display: block;
+    margin: 0 auto;
+    
+}
+  
+  .information {
+    max-width: 45%;
+  
+  }
+  @media (max-width: 768px) {
+    .info {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+
+    .photos,
+    .information {
+      max-width: 100%; 
+      margin-top: 15px;
+    }
+  }
+  
+
   
 

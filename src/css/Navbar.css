@@ -16,6 +16,7 @@
     height: 100%;
     background-color: darkslategray;
     padding: 15px;
+    z-index: 2;
   }
   .sidebar li {
     color: maroon;
@@ -91,7 +92,7 @@
     background-color: #0000ff;
     color: #ffffff;
   }
-  
+ 
   @media screen and (max-width: 768px) {
     .nav-links {
       display: none;
@@ -139,3 +140,8 @@
   
 
  
+
+
+
+
+  

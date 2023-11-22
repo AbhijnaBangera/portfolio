@@ -1,12 +1,12 @@
-import "../css/About.css";
+import "../css/MoreInfo.css";
 import react from "react";
 function Moreinfo() {
   return (
     <>
       <div class="Moreinfo">
-        <h1>
-          <a href="Moreinfo"></a>Moreinfo
-        </h1>
+        <h2>
+          <a href="Moreinfo"></a>MoreInfo
+        </h2>
       </div>
       <div class="info">
         

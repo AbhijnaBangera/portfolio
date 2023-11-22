@@ -1,5 +1,8 @@
+import img1 from "../images/skill1.jpg";
+import img2 from "../images/skill2.jpg";
+import img3 from "../images/skill3.jpg";
+import img4 from "../images/skill4.jpg";
 
-// import icon from "../svg icons/icons8-c";
 import "../css/Skill.css"
 import react from "react";
 function Skill() {
@@ -10,14 +13,23 @@ function Skill() {
           <a href="Skill"></a>Skill
         </h1>
       </div>
-      <div class="info">
-        <h3>Abhijna</h3>
-        <h3>4CB21CS001</h3>
-        <h3>Canara Engineering College</h3>
-        
+      <div className="photo">
+          <img src={img1} alt="img" />
 
-        <div class="information"></div>
-      </div>
+        </div>
+        <div className="photo">
+          <img src={img2} alt="img" />
+
+        </div>
+        <div className="photo">
+          <img src={img3} alt="img" />
+
+        </div>
+        <div className="photo">
+          <img src={img4} alt="img" />
+
+        </div>
+        
     </>
   );
 }
