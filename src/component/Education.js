@@ -5,50 +5,44 @@ function Education() {
   const EducationP = [
     {
       id: 1,
-      H: "hello",
-      P: "content1",
+      H: "Primary",
+      P: "THUMBAY CENTRAL SCHOOL",
+      img:"htm"
     },
     {
       id: 2,
-      H: "hai",
-      P: "content2",
+      H: "High School",
+      P: "THUMBAY ENGLISH MEDIUM HIGH SCHOOL",
     },
     {
       id: 3,
-      H: "hi",
-      P: "content3",
+      H: "College",
+      P: "THUMBAY PRE UNIVERSITY COLLEGE",
     },
   ]
 
   return (
     <>
  <div>
-       
-       {
-        EducationP.map((item)=>(
-          <Card Education={item}/>
-          
-        ))
-       }
-      </div>
-
-
-
-
-
-
-      {/* { <div class="Education">
+ <div class="Education">
         <h1>
           <a href="Education"></a>Education
         </h1>
       </div>
 
-      <div className="container">
-        <div className="box1">Left Div Content</div>
-        <div className="box2">Right Div Content</div>
-        <div className="box3">Third div content </div>
-      </div> } */}
-    </>
+      {/* <div className="container">
+        <div className="box1">First div content</div>
+        <div className="box2">Second div content</div>
+        <div className="box3">Third div content</div>
+      </div> */}
+       {
+        EducationP.map((item)=>(
+          <Card Education={item}/>
+          
+        ))
+        }
+      </div>
+      </>
   );
 }
 export default Education;

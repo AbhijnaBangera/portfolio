@@ -1,5 +1,4 @@
 import "../css/About.css";
-import react from "react";
 import img from "../images/nature.jpg";
 function About() {
   return (
@@ -11,7 +10,7 @@ function About() {
       </div>
       <div class="info">
         
-        <h3><p>My name is Abhijna and I am studing in canara Engineering College in Benjanpadav Mangalore .I am studing in 3rd year 6th sem.My goal is to get place in a IT company </p></h3>
+        <h3><p>My name is Abhijna <br/>and I am studing in canara Engineering<br/> College in Benjanpadav Mangalore .<br/>I am studing in 3rd year 6th semester.My goal is to get place in a IT company </p></h3>
        
         <div className="photos">
           <img src={img} alt="img" />

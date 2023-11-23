@@ -1,4 +1,4 @@
-/*.Skill h1 {
+/* .Skill h1 {
     color: black;
   }
 
@@ -30,10 +30,10 @@
       display: flex;
       padding-right: 150px;
     }
-  }*/
+  } */
 
 
-  /* .Skill {
+   .Skill {
     text-align: center; 
   }
   
@@ -50,10 +50,10 @@
     border: 1px solid #ccc;
     border-radius: 5px; 
    
-  } */
+  }
 
 
-   .Skill {
+    .Skill {
     text-align: center; 
   }
 

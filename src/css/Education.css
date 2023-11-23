@@ -1,7 +1,5 @@
 
-.Education H1{
-  color: aliceblue;
-}
+
 
 
 
@@ -38,7 +36,7 @@
 } 
 
 
-.Education h1{
+ .Education h1{
   color:greenyellow;
   text-align:center;
 }
@@ -49,7 +47,7 @@ h3{
 .Education {
   text-align: center;
   
-}
+} 
 
 
 @media (max-width: 600px) {
@@ -90,7 +88,7 @@ h3{
 }
 
 
-.Education h1{
+/* .Education h1{
   color:greenyellow;
   text-align:center;
 }
@@ -101,7 +99,7 @@ h3{
 .Education {
   text-align: center;
   
-}
+} */
 
 
 @media (max-width: 600px) {

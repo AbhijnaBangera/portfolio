@@ -21,9 +21,11 @@ function Navbar() {
         {show === "/about" ? "" : <Link to="/about">About</Link>}
         {show === "/skill" ? "" : <Link to="/skill">Skill</Link>}
         {show === "/contact" ? "" : <Link to="/contact">Contact</Link>}
-        {show === "/moreinfo" ? "" : <Link to="/moreinfo">More Info</Link>}
+     
         {show === "/education" ? "" : <Link to="/education">Education</Link>}
+       
       </div>
+
 
       <div className="mobile-menu">
         <span className="icon" onClick={() => hamburger(true)}>
@@ -72,15 +74,7 @@ function Navbar() {
                   </Link>
                 </li>
               )}
-              {show === "/moreinfo" ? (
-                ""
-              ) : (
-                <li>
-                  <Link to="/moreinfo" onClick={() => hamburger(false)}>
-                    More info
-                  </Link>
-                </li>
-              )}
+             
 
               
 {show === "/education" ? (
