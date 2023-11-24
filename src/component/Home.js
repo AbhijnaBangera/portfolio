@@ -16,7 +16,7 @@ export default function Home() {
       <Contact />
      
       <Education/>
-      <Footer/>
+      {/* <Footer/> */}
      </>
   );
   }

@@ -14,6 +14,7 @@ import Home from "./component/Home.js";
 import Education from './component/Education.js';
 import Footer from './component/Footer.js';
 
+
 function App() {
   return (
     
@@ -30,6 +31,7 @@ function App() {
         
         
       </Routes>
+      <Footer/>
       </BrowserRouter>
       
  
