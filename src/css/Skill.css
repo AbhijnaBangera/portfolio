@@ -79,6 +79,9 @@
     align-items: center;
     flex-wrap: wrap; 
   }
+  .foot{
+    height: 520px;
+  }
 
   @media (max-width: 600px) {
     .photo {

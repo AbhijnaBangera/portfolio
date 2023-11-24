@@ -24,6 +24,7 @@ function Contact() {
   };
   return (
     <>
+    <div className="foote">
       <div class="Contact">
         <h1>
           <a href="Contact"></a>Contact Us
@@ -64,7 +65,7 @@ function Contact() {
        </form>
 </div>
 
-       
+       </div>
       
     </>
   );

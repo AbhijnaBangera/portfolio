@@ -8,6 +8,9 @@ import react from "react";
 function Skill() {
   return (
     <>
+    <div className="foot">
+
+   
       <div class="Skill">
         <h1>
           <a href="Skill"></a>Skill
@@ -29,7 +32,7 @@ function Skill() {
           <img src={img4} alt="img" />
 
         </div>
-        
+         </div>
     </>
   );
 }
