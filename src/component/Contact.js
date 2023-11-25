@@ -27,7 +27,7 @@ function Contact() {
     <div className="foote">
       <div class="Contact">
         <h1>
-          <a href="Contact"></a>Contact Us
+          <a href="Contact"></a>Contact
         </h1>
       </div>
         
