@@ -10,7 +10,7 @@ function About() {
       </div>
       <div class="info">
         
-        <h3><p>My name is Abhijna <br/>and I am studing in canara Engineering<br/> College in Benjanpadav Mangalore .<br/>I am studing in 3rd year 6th semester.My goal is to get place in a IT company </p></h3>
+        <h3><p>Welcome to my portfolio.I am Abhijna  <br/>,currently pursuing my Engineering in Canara Engineering College. I am passionate web developer with strong skill in HTML,CSS and java Script. </p></h3>
        
         <div className="photos">
           <img src={img} alt="img" />

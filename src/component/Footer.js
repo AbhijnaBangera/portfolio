@@ -5,7 +5,7 @@ function Footer() {
     <>
    <div>
     <div className="footer">
-        <p>&copy;Abhijna Canara Engineering College</p>
+        <p>&copy;2023 Abhijna</p>
         </div>
    </div>
     </>
